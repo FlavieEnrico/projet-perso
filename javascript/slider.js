@@ -1,6 +1,3 @@
-function challengesLoad(infos){
-  challenges = infos
-}
 const slideContainer = document.querySelector(".slider")
 const sliderTitle = document.querySelector(".slider--title")
 const sliderText = document.querySelector(".slider--text")
