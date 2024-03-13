@@ -29,7 +29,7 @@
 
 <script type="type/javascript" src="./javascript/slider.js"></script>
 <script type="text/javascript">
-  fetch('../javascript/challenges.json')
+  fetch('./javascript/challenges.json')
   .then(response => response.json())
   .then(data => challengesLoad(data))
   .catch(error => console.error('Error loading data:', error));
