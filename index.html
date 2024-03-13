@@ -10,7 +10,10 @@
     <script type="text/javascript">
       fetch('./javascript/challenges.json')
       .then(response => response.json())
-      .then(data => challengesLoad(data))
+      .then(data => {
+        challengesLoad(data);
+        console.log(data);
+      })
       .catch(error => console.error('Error loading data:', error));
     </script>
 </head>
