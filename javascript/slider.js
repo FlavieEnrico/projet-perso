@@ -19,7 +19,6 @@ const startSlider = () => {
 if (btnRight) {
   btnRight.addEventListener("click", function() {
     if (slideCounter === challenges.length - 1) {
-      console.log(challenges[0])
       sliderTitle.innerHTML = challenges[0].title
       sliderText.innerHTML = challenges[0].text
       slideCounter = -1
@@ -29,7 +28,6 @@ if (btnRight) {
         slideContainer.classList.remove("fadeIn")
       }, 1000)
     } else {
-      console.log(challenges[slideCounter + 1])
       sliderTitle.innerHTML = challenges[slideCounter + 1].title
       sliderText.innerHTML = challenges[slideCounter + 1].text
       slideCounter++
