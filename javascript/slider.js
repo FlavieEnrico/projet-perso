@@ -3,7 +3,7 @@ function challengesLoad(infos){
     startSlider()
 }
 
-console.log("slider.js")
+//console.log("slider.js")
 const slideContainer = document.querySelector(".slider")
 const sliderTitle = document.querySelector(".slider--title")
 const sliderText = document.querySelector(".slider--text")
@@ -38,4 +38,4 @@ const startSlider = () => {
     }
   })
   
-  startSlider()
+  //startSlider()
