@@ -1,5 +1,6 @@
 function challengesLoad(infos){
     challenges = infos["challenges"]
+    console.log(challenges)
     startSlider()
 }
 
