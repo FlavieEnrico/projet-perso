@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="../css/slider.css">
+    <script src="https://kit.fontawesome.com/66c63b4ed2.js"></script>
+</head>
+<body>
+    <main>
+        <div class="slider">
+          <div class="slider--content">
+            <button class="slider__btn-left">
+            </button>
+            <div class="slider--feature">
+              <h1 class="slider--title"></h1>
+              <p class="slider--text"></p>
+              <button class="slider--btn">Get started</button>
+            </div>
+            <button class="slider__btn-right">
+              <i class="fas fa-angle-right"></i>
+            </button>
+          </div>
+        </div>
+      </main>
+</body>
+
+
+<script type="type/javascript" src="../javascript/slider.js"></script>
+<script type="text/javascript">
+  fetch('../javascript/challenges.json')
+  .then(response => response.json())
+  .then(data => challengesLoad(data))
+  .catch(error => console.error('Error loading data:', error));
+</script>
+</html>
