@@ -1,7 +1,5 @@
 function challengesLoad(infos){
     challenges = infos["challenges"]
-    console.log(challenges)
-    console.log("test")
     startSlider()
 }
 
@@ -18,7 +16,7 @@ const startSlider = () => {
   sliderTitle.innerHTML = challenges[0].title
   sliderText.innerHTML = challenges[0].text
   }
-
+if (btnRight) {
   btnRight.addEventListener("click", function() {
     if (slideCounter === challenges.length - 1) {
       console.log(challenges[0])
@@ -41,5 +39,7 @@ const startSlider = () => {
       }, 1000)
     }
   })
+
+}
   
   //startSlider()

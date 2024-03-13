@@ -11,7 +11,6 @@
       fetch('./javascript/challenges.json')
       .then(response => response.json())
       .then(data => {
-        console.log(data);
         challengesLoad(data);
       })
       .catch(error => console.error('Error loading data:', error));
