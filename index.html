@@ -5,16 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Slider</title>
     <link rel="stylesheet" href="./css/slider.css">
-    <script src="https://kit.fontawesome.com/66c63b4ed2.js"></script>
-    <script type="text/javascript" src="./javascript/slider.js"></script>
-    <script type="text/javascript">
-      fetch('./javascript/challenges.json')
-      .then(response => response.json())
-      .then(data => {
-        challengesLoad(data);
-      })
-      .catch(error => console.error('Error loading data:', error));
-    </script>
+    <script src="https://kit.fontawesome.com/66c63b4ed2.js"></script>    
 </head>
 <body>
     <main>
@@ -37,4 +28,12 @@
 
 
 <script type="text/javascript" src="./javascript/slider.js"></script>
+<script type="text/javascript">
+  fetch('./javascript/challenges.json')
+  .then(response => response.json())
+  .then(data => {
+    challengesLoad(data);
+  })
+  .catch(error => console.error('Error loading data:', error));
+</script>
 </html>

@@ -3,11 +3,11 @@ function challengesLoad(infos){
     startSlider()
 }
 
-const slideContainer = document.querySelector(".slider")
-const sliderTitle = document.querySelector(".slider--title")
-const sliderText = document.querySelector(".slider--text")
-const btnRight = document.querySelector(".slider__btn-right")
-const sliderStart = document.querySelector(".slider--btn")
+var slideContainer = document.querySelector(".slider")
+var sliderTitle = document.querySelector(".slider--title")
+var sliderText = document.querySelector(".slider--text")
+var btnRight = document.querySelector(".slider__btn-right")
+var sliderStart = document.querySelector(".slider--btn")
 
 let slideCounter = 0
 
