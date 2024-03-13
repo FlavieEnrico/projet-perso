@@ -1,6 +1,7 @@
-const getData = () => console.log(challenges);
-
-getData();
+function challengesLoad(infos){
+    challenges = infos
+    startSlider()
+}
 
 console.log("slider.js")
 const slideContainer = document.querySelector(".slider")
