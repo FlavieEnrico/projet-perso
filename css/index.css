@@ -1,0 +1,38 @@
+html {
+    background: linear-gradient(to bottom right,#9BF2ED, #3270E8);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    font-family: Lato, sans-serif;
+    color: #3e3e3e;
+    letter-spacing: 0.1rem;
+}
+
+h1 {
+    font-weight: 300;
+    font-style: italic;
+}
+
+a {
+    color: #3e3e3e; 
+}
+
+#wrap {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#wrap > div {
+    width: 45%;
+}
+
+#wrap > div:first-of-type {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#wrap > div:last-of-type {
+    text-align: right;
+}

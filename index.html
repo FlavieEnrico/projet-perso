@@ -3,37 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Slider</title>
-    <link rel="stylesheet" href="./css/slider.css">
-    <script src="https://kit.fontawesome.com/66c63b4ed2.js"></script>    
+    <title>Express yourself - Learn AfterEffects expressions</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
 </head>
 <body>
-    <main>
-        <div class="slider">
-          <div class="slider--content">
-            <button class="slider__btn-left">
-            </button>
-            <div class="slider--feature">
-              <h1 class="slider--title">Title</h1>
-              <p class="slider--text">Text</p>
-              <button class="slider--btn">Get started</button>
+    <div id="wrap"> 
+       <div>
+            <div>
+                <h1>Express yourself.</h1>
+                <p>Please express yourself.</p>
+                <p>But how? How can I express myself?</p>
+                <p>Hehe. Expression, is a motion. It's a vehicle.It's a medium. You work with it, you work around it. It uses you, your mind. It's... effects.</p>
             </div>
-            <button class="slider__btn-right">
-              <i class="fas fa-angle-right"></i>
-            </button>
-          </div>
+            <div>
+                <ul>Quests acquiered: 
+                    <li>Using Adobe After Effects expression principles, learn about different techniques which will be illustrated.</li>
+                    <li>Express yourself.</li>
+                </ul>
+            </div>
         </div>
-      </main>
+       <div>
+        <a href="slider.html">Next →</a>
+       </div> 
+    </div>
 </body>
-
-
-<script type="text/javascript" src="./javascript/slider.js"></script>
-<script type="text/javascript">
-  fetch('./javascript/challenges.json')
-  .then(response => response.json())
-  .then(data => {
-    challengesLoad(data);
-  })
-  .catch(error => console.error('Error loading data:', error));
-</script>
 </html>
