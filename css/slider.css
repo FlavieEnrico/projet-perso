@@ -83,6 +83,17 @@ body {
   transform: scale(0.95);
 }
 
+.code-snippet {
+  background-color: #3e3e3e;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0px 4px 4px #1f1f1f;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 500;
+  color: #9BF2ED;
+}
+
 @keyframes fadeIn {
     0% {
       opacity: 0;

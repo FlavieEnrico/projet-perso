@@ -2,8 +2,8 @@
     "challenges" :[
         {
             "title": "Wiggle it out.",
-            "text": "<p>In After Effects, it's easy to get wiggly. You, yes you, can create random motion or jitter in a property with one simple expression.</p><p> wiggle(frequency, amplitude)</p><p> See? Easy!</p>",
-
+            "text": "<p>In After Effects, it's easy to get wiggly. You, yes you, can create random motion or jitter in a property with one simple expression.</p><p class=\"code-snippet\"> wiggle(frequency, amplitude)</p><p> See? Easy!</p>",
+            "illustration":"",
             "id": "1"
         },
         {
