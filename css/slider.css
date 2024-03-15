@@ -16,6 +16,7 @@ body {
   background-repeat: no-repeat;
   color: white;
   font-size: 1rem;
+  animation: fadeIn 1s;
 }
 
 .slider {
@@ -88,6 +89,7 @@ body {
       opacity: 1;
     }
   }
+  
   .fadeIn {
     animation: fadeIn 1s;
   }

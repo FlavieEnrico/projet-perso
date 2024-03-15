@@ -12,6 +12,7 @@ html {
 
 body {
     font-style: italic;
+    animation: fadeIn 1s;
 }
 
 h1 {
@@ -98,3 +99,15 @@ body > div {
     height: 25px;
     width: auto;
 }
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .fadeIn {
+    animation: fadeIn 1s;
+  }
