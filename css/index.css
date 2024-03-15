@@ -57,12 +57,16 @@ ul > li {
     list-style-type: "→ ";
 }
 
+body > div {
+    height: 80vh;
+}
+
 #wrap {
     padding: 50px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    height: 85vh;
+    height: 100%;
 }
 
 #wrap > div {
@@ -81,4 +85,16 @@ ul > li {
     align-items: flex-end;
     justify-content: flex-end;
     text-align: right;
+}
+
+.logo-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-div > img {
+    height: 25px;
+    width: auto;
 }
