@@ -58,6 +58,7 @@ body {
   .slider-next-page {
     display: flex;
     justify-content: flex-end;
+    align-items: flex-end;
   }
 
   .slider__btn-right {
