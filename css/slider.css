@@ -8,6 +8,8 @@ body {
   height: 100vh;
   width: 100%;
   font-family: Lato, sans-serif;
+  font-style: italic;
+  letter-spacing: 0.1rem;
   background: linear-gradient(to bottom left,#4D7C86, #001930);
   background-size: 100vw 100vh;
   background-repeat: no-repeat;
@@ -16,7 +18,7 @@ body {
 }
 
 .slider {
-  padding: 50px;
+    padding: 50px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -61,6 +63,8 @@ body {
   background: transparent;
   font-family: Lato, sans-serif;
   text-decoration: underline;
+  font-style: italic;
+  letter-spacing: 0.1rem;
   font-size: 1rem;
   border: none;
   outline: none;
