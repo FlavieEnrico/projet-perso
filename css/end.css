@@ -1,0 +1,68 @@
+html {
+    background: linear-gradient(to bottom, white, #B3DFDD);
+    height: 100vh;
+    width: 100%;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    font-family: Lato, sans-serif;
+    font-style: italic;
+    color: #3E3E3E;
+    letter-spacing: 0.1rem;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+p {
+    text-align: center;
+    margin: 5px;
+}
+
+em {
+    font-weight: 700;
+    font-style: normal;
+}
+
+#wrap {
+    padding: 50px;
+    height: 85vh;
+}
+
+#wrap > div {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#wrap > div > div {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    border: none;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px #3E3E3E;
+    cursor: pointer;
+    margin: 25px;
+    font-family: Lato, sans-serif;
+    font-style: italic;
+    color: white;
+    letter-spacing: 0.1rem;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+#yes-button {
+    background: linear-gradient(to right,#9BF2ED, #3270E8);
+}
+
+#no-button {
+    background: linear-gradient(to right,#4D7C86, #001930);
+}
