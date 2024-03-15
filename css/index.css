@@ -10,6 +10,7 @@ html {
 
 body {
     height: 100%;
+    font-style: italic;
 }
 
 h1 {
@@ -17,8 +18,36 @@ h1 {
     font-style: italic;
 }
 
+em {
+    font-weight: 700;
+}
+
+.self-dialog {
+    font-style: normal;
+    font-weight: 700;
+}
+
+.quest-prompt {
+    padding-left: 10px;
+}
+
+.quest-prompt::before {
+    content: '';
+    background:url('../assets/images/ellipse_quest.png');
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    left: -10px;
+}
+
 a {
     color: #3e3e3e; 
+}
+
+ul > li {
+    list-style-type: "→ ";
 }
 
 #wrap {
