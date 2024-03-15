@@ -48,12 +48,14 @@ body {
     font-size: 2.5rem;
     color: #fff;
     font-weight: 300;
+    margin-bottom: 30px;
   }
   
   .slider--text {
     font-size: 1rem;
     color: #fff;
     margin: 0.5rem 0;
+    width: 65%;
   }
 
   .slider-next-page {
