@@ -19,7 +19,7 @@ const startSlider = () => {
 if (btnRight) {
   btnRight.addEventListener("click", function() {
     if (slideCounter === challenges.length - 1) {
-      location.href = "credits.html";
+      location.href = "./credits.html";
     } else {
       sliderTitle.innerHTML = challenges[slideCounter + 1].title
       sliderText.innerHTML = challenges[slideCounter + 1].text
