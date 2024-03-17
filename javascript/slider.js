@@ -25,6 +25,7 @@ if (btnRight) {
       sliderTitle.innerHTML = challenges[slideCounter + 1].title
       sliderText.innerHTML = challenges[slideCounter + 1].text
       sliderIllu.src = challenges[slideCounter + 1].illustration
+      console.log(sliderIllu.src)
       slideCounter++
       slideContainer.classList.add("fadeIn")
       setTimeout(() => {
