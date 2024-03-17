@@ -6,6 +6,7 @@ function challengesLoad(infos){
 var slideContainer = document.querySelector(".slider")
 var sliderTitle = document.querySelector(".slider--title")
 var sliderText = document.querySelector(".slider--text")
+var sliderIllu = document.querySelector(".slider--illustration")
 var btnRight = document.querySelector(".slider__btn-right")
 var sliderStart = document.querySelector(".slider--btn")
 
@@ -23,6 +24,7 @@ if (btnRight) {
     } else {
       sliderTitle.innerHTML = challenges[slideCounter + 1].title
       sliderText.innerHTML = challenges[slideCounter + 1].text
+      sliderIllu.src = challenges[slideCounter + 1].illustration
       slideCounter++
       slideContainer.classList.add("fadeIn")
       setTimeout(() => {
