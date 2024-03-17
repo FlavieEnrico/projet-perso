@@ -3,7 +3,7 @@
         {
             "title": "Wiggle it out.",
             "text": "<p>Firstly, what are expressions in After Effects? Well, it's a way to use code snippets to affect some parameters of your animation. To activate those, you just need to press the alt key and click on the stopwatch of any parameter you'd like to use expressions for.</p><p>In After Effects, it's easy to get wiggly. You, yes you, can create random motion or jitter in a property with one simple expression.</p><p class=\"code-snippet\"> wiggle(frequency, amplitude)</p><p> See? Easy! Here is an example with a slight... shake.</p>",
-            "illustration":"./assets/images/gifs/1.gif",
+            "illustration":"../assets/images/gifs/1.gif",
             "id": "1"
         },
         {
