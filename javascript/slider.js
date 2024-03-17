@@ -6,7 +6,7 @@ function challengesLoad(infos){
 var slideContainer = document.querySelector(".slider")
 var sliderTitle = document.querySelector(".slider--title")
 var sliderText = document.querySelector(".slider--text")
-var sliderIllu = document.querySelector(".slider--illustration")
+var sliderIllu = document.getElementById(".slider--illustration")
 var btnRight = document.querySelector(".slider__btn-right")
 var sliderStart = document.querySelector(".slider--btn")
 
