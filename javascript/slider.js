@@ -8,12 +8,12 @@ var sliderTitle = document.querySelector(".slider--title")
 var sliderText = document.querySelector(".slider--text")
 var btnRight = document.querySelector(".slider__btn-right")
 var sliderStart = document.querySelector(".slider--btn")
-var gifSlot = document.querySelector(".slider--illustration")
+var gifSlot = document.querySelector("#slider--illustration")
 
 let slideCounter = 0
 
 const startSlider = () => {
-  console.log(challenges[0])
+  console.log(gifSlot)
   sliderTitle.innerHTML = challenges[0].title
   sliderText.innerHTML = challenges[0].text
   gifSlot.src = challenges[0].illustration
