@@ -8,7 +8,7 @@
         },
         {
             "title": "Take some time.",
-            "text": "",
+            "text": "<p>Something really important to know about expressions is that, beside space, you can also work with time. Like, linking the square's rotation with time passing, so that it's spinning faster and faster as time passes.</p><p class=\"code-snippet\">var timeToStart = 2;<br>var timeToStop = 4;<br>if ( ( time > timeToStart ) && ( time < timeToStop ) ) {<br>wiggle(3,25);<br>} else {<br>value;<br>}</p><p>Here, can you guess what this example can do? Well our anxious only has a limited breakdown time now! But don't worry, it just means it's doing fine the rest of the time!",
             "id": "2"
         },
         {

@@ -23,7 +23,7 @@ if (btnRight) {
     } else {
       sliderTitle.innerHTML = challenges[slideCounter + 1].title
       sliderText.innerHTML = challenges[slideCounter + 1].text
-      document.getElementById(".slider--illustration").src = challenges[slideCounter + 1].illustration
+      document.getElementById("slider--illustration").src = challenges[slideCounter + 1].illustration
       slideCounter++
       slideContainer.classList.add("fadeIn")
       setTimeout(() => {
