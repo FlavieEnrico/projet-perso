@@ -28,7 +28,7 @@
         },
         {
             "title": "Random.",
-            "text": "<p>Life can be a bit random at times. On the other hand, computers are usually not. But we can at least try to recreate a tad bit of randomness, which could be very interresting in some contexts.</p>",
+            "text": "<p>Life can be a bit random at times. On the other hand, computers are usually not. But we can at least try to recreate a tad bit of randomness, which could be very interresting in some contexts.</p><p class=\"code-snippet\">random(minValOrArray, maxValOrArray);</p><p>You just have to indicate at least a maxValue, and also a minValue if you'd like.</p>",
             "id": "6"
         },
         {
@@ -43,12 +43,12 @@
         },
         {
             "title": "Delayed.",
-            "text": "<p>Creating a trail could create some nice new looks, and to do so you will need to use some delay. Let's dive into this.</p><p class=\"code-snippet\">var delay = 5;<br>var multiplyDelay = delay * (index - parent.index)<br>parent.fromComp(toComp(anchorPoint, time - framesToTime(multiplyDelay)));</p>",
+            "text": "<p>Creating a trail could create some nice new looks, and to do so you will need to use some delay. Let's dive into this.</p><p class=\"code-snippet\">var delay = 5;<br>var multiplyDelay = delay * (index - parent.index)<br>parent.fromComp(toComp(anchorPoint, time - framesToTime(multiplyDelay)));</p><p>The idea is to create 5 copies, which will have a slight time offset.</p>",
             "id": "9"
         },
         {
             "title": "Let's write it.",
-            "text": "<p>Expressions can be used to elevate some text layers too.</p>",
+            "text": "<p>Expressions can be used to elevate some text layers too.</p><p class=\"code-snippet\">thisComp.layer(\"Ref\").text.sourceText.style.setFontSize(style.fontSize).setFillColor(style.fillColor);</p><p>This is just an example to show you what kind of properties you can modify.</p>",
             "id": "10"
         }
     ]
