@@ -18,12 +18,12 @@
         },
         {
             "title": "Just loop around.",
-            "text": "I think wee can all agree that loopings are the most fun you can have on a rollercoaster. It's also very fun to code by the way. Let's take a look and see how we could loop out an existing animation.",
+            "text": "<p>I think we can all agree that loopings are the most fun you can have on a rollercoaster. It's also very fun to code by the way. Let's take a look and see how we could loop out an existing animation.</p><p class=\"code-snippet\">loopOut(\"cycle\",4)</p><p>What? That's it? Well, I mean, yes!! This will loop your last 4 keyframes of said parameter, in a cycle. Keep in mind, you can also switch \"cycle\" with \"pingpong\", and instead of a cycle, the loop is going to go back and forth between your last 4 frames.</p>",
             "id": "4"
         },
         {
             "title": "Anchor yourself.",
-            "text": "An important notion to understand is how a composition works. You can easily access each and every layer, aspect, and parameter. thisComp, will help you target your current composition, while thisLayer will target the current layer you're working on. layer() alone can then target any specified layer. And after this, well, you can pretty much access any parameters, as you would unfolding the parameters of a layer as per usual.",
+            "text": "<p>An important notion to understand is how a composition works. You can easily access each and every layer, aspect, and parameter. thisComp, will help you target your current composition, while thisLayer will target the current layer you're working on. layer() alone can then target any specified layer. And after this, well, you can pretty much access any parameters, as you would unfolding the parameters of a layer as per usual. So, you could fetch any information you'd like about any layer! For example, its width!! So! Many! Possibilities!!</p><p class=\"\">a = thisComp.layer(\"Text1\").sourceRectAtTime();<br>height = a.height;<br>width = a.width;<br>top = a.top;<br>left = a.left;<br>x = left + width/2;<br>y = top + height/2;<br>[x,y];</p><p>Here, the rectangle takes the width of the text.</p>",
             "id": "5"
         },
         {
