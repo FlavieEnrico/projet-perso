@@ -9,46 +9,55 @@
         {
             "title": "Take some time.",
             "text": "<p>Something really important to know about expressions is that, beside space, you can also work with time. Like, linking the square's rotation with time passing, so that it's spinning faster and faster as time passes.</p><p class=\"code-snippet\">time*time;</p><p>Just apply this to the rotation parameter of your element.</p>",
+            "illustration":"./assets/images/gifs/2.gif",
             "id": "2"
         },
         {
             "title": "But can you do both?",
             "text": "<p>Remember wiggling? It is fun, I must admit. But after a while, it's time to stop. How could you stop the motion using the time expression you just learned about?</p><p class=\"code-snippet\">var timeToStart = 2;<br>var timeToStop = 4;<br>if ( ( time > timeToStart ) && ( time < timeToStop ) ) {<br>wiggle(3,25);<br>} else {<br>value;<br>}</p><p>Here, can you guess what this example can do? Well our anxious only has a limited breakdown time now! But don't worry, it just means it's doing fine the rest of the time!</p>",
+            "illustration":"./assets/images/gifs/3.gif",
             "id": "3"
         },
         {
             "title": "Just loop around.",
             "text": "<p>I think we can all agree that loopings are the most fun you can have on a rollercoaster. It's also very fun to code by the way. Let's take a look and see how we could loop out an existing animation.</p><p class=\"code-snippet\">loopOut(\"cycle\",4)</p><p>What? That's it? Well, I mean, yes!! This will loop your last 4 keyframes of said parameter, in a cycle. Keep in mind, you can also switch \"cycle\" with \"pingpong\", and instead of a cycle, the loop is going to go back and forth between your last 4 frames.</p>",
+            "illustration":"./assets/images/gifs/4.gif",
             "id": "4"
         },
         {
             "title": "Anchor yourself.",
             "text": "<p>An important notion to understand is how a composition works. You can easily access each and every layer, aspect, and parameter. thisComp, will help you target your current composition, while thisLayer will target the current layer you're working on. layer() alone can then target any specified layer. And after this, well, you can pretty much access any parameters, as you would unfolding the parameters of a layer as per usual. So, you could fetch any information you'd like about any layer! For example, its width!! So! Many! Possibilities!!</p><p class=\"code-snippet\">a = thisComp.layer(\"Text1\").sourceRectAtTime();<br>height = a.height;<br>width = a.width;<br>top = a.top;<br>left = a.left;<br>x = left + width/2;<br>y = top + height/2;<br>[x,y];</p><p>Here, the rectangle takes the width of the text.</p>",
+            "illustration":"./assets/images/gifs/5.gif",
             "id": "5"
         },
         {
             "title": "Random.",
             "text": "<p>Life can be a bit random at times. On the other hand, computers are usually not. But we can at least try to recreate a tad bit of randomness, which could be very interresting in some contexts.</p><p class=\"code-snippet\">random(minValOrArray, maxValOrArray);</p><p>You just have to indicate at least a maxValue, and also a minValue if you'd like.</p>",
+            "illustration":"./assets/images/gifs/6.gif",
             "id": "6"
         },
         {
             "title": "Round and round in circles.",
             "text": "<p>Creating keyframes loops is an absolute necessity. But there are things that loops just can do, and sometimes a sine is just what you need.</p><p class=\"code-snippet\">var centerOfComp = [ (thisComp.width / 2), (thisComp.height / 2)];<br>var circleOverTime = [Math.sin(time) * 50, -Math.cos(time) * 50];<br>            centerOfComp + circleOverTime;</p><p>This is an easy way of making cars drive around a roundabout for example!</p>",
+            "illustration":"./assets/images/gifs/7.gif",
             "id": "7"
         },
         {
             "title": "Go with the flow.",
             "text": "<p>Sometimes, expressions can seem a bit useless too. Their amazing capacities are able to simulate once again what can be achieve natively. So, how would you go about writing a simple mouvement oscillating from left to right, using a sinus function? Don't be fooled though, this can be extremely handy to build on and experiment with, to elevate animations to greater heights.</p><p class=\"code-snippet\">amplitude = 150;<br>vitesse = 5;<br>x = 320 + (amplitude * Math.sin(time*vitesse));<br>y = value[1];<br>[x,y];</p>",
+            "illustration":"./assets/images/gifs/8.gif",
             "id": "8"
         },
         {
             "title": "Delayed.",
             "text": "<p>Creating a trail could create some nice new looks, and to do so you will need to use some delay. Let's dive into this.</p><p class=\"code-snippet\">var delay = 5;<br>var multiplyDelay = delay * (index - parent.index)<br>parent.fromComp(toComp(anchorPoint, time - framesToTime(multiplyDelay)));</p><p>The idea is to create 5 copies, which will have a slight time offset.</p>",
+            "illustration":"./assets/images/gifs/9.gif",
             "id": "9"
         },
         {
             "title": "Let's write it.",
             "text": "<p>Expressions can be used to elevate some text layers too.</p><p class=\"code-snippet\">thisComp.layer(\"Ref\").text.sourceText.style.setFontSize(style.fontSize).setFillColor(style.fillColor);</p><p>This is just an example to show you what kind of properties you can modify.</p>",
+            "illustration":"./assets/images/gifs/10.gif",
             "id": "10"
         }
     ]
